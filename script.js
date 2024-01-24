@@ -1,6 +1,6 @@
 document.getElementById("btn").addEventListener("click", async()=> {
   let text=document.getElementById("Text").value
-	let delay=document.getElementById("Delay").value
+	let delay+=document.getElementById("Delay").value
 	if(text && delay)
 	{
 		let myPromise=new Promise((res)=>{
